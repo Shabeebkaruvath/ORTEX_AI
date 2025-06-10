@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+venv/
+.env
+
+# Node.js
+node_modules/
+dist/
+*.log
+.yarn/*
+.yarnrc.yml
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# AI models and binaries
+gpt4all/
+models/
+
+# VSCode
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
