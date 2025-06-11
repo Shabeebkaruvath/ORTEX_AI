@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'users',
     'interviews',
     'cv_builder',
+    'admin_panel',
 ]
 
 MIDDLEWARE = [
@@ -70,6 +71,8 @@ REST_FRAMEWORK = {
 }
 
 ROOT_URLCONF = 'cortes_backend.urls'
+
+AUTH_USER_MODEL = 'users.User'
 
 TEMPLATES = [
     {
